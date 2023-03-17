@@ -1,4 +1,49 @@
+
+
+.todo {
+    
+    margin: none;
+    padding: none;
+    background-color: #f9ecb9;
+    
+}
+
+img {
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-bottom: 1em;
+    width: 20em;
+    filter: opacity(80%);
+}
+
+
 h1 {
     text-align: center;
-    margin-top: 1em;
+    text-decoration: underline;
+    margin-top: 2em;
+    margin-bottom: 1em;   
 }
+
+h3 {
+    text-align: center;
+}
+
+
+button {
+    background-color: #eecf8e;
+    border-color: black;
+    border-width: 3px;
+    color: rgb(18, 12, 1);
+
+}
+
+button:hover {
+    background-color: #efc468;
+    border-color: rgb(98, 64, 6);
+    border-style: dotted;
+    border-width: 3px;
+    color: rgb(18, 12, 1);
+}
+
+
+

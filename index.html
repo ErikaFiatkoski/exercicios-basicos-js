@@ -11,99 +11,112 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!--CSS projeto-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/js-outline.png">
 
 
     <title>Exercícios de JavaScript</title>
 </head>
 
 <body>
-    <h1>Exercícios básicos de JavaScript</h1>
-    <hr>
-    <br>
 
+    <div class="container-fluid todo">
 
-    <div class="container" id="primeiroContainer">
+        <div class="container topo"></div>
         <div class="row">
 
-            <h3>Exercício 1: Mostrar números de 1 a 10</h3>
+            <div class="col-4">
+                <img src="img/javascript.png">
+            </div>
 
-            <button type="button" id="botao1" onclick="numero1a10();">Mostrar</button>
+            <div class="col-4">
+                <h1>Exercícios básicos de JavaScript</h1>
+            </div>
 
-            <p id="exercicio1"></p>
+            <div class="col-4">
 
-            <h3>Exercício 2: Mostrar os números impares menores que 100</h3>
-
-            <button type="button" id="botao2" onclick="imparMenorQue100();">Mostrar</button>
-
-            <p id="exercicio2"></p>
-
-
-            <h3>Exercício 3: Mostrar a tabuada do número 8</h3>
-            <button type="button" id="botao3" onclick="tabuadaDo8();">Mostrar</button>
-
-            <p id="exercicio3"></p>
-
-
-            <h3>Exercício 4: Mostrar todas as tabuadas do número 1 ao 10 </h3>
-            <button type="button" id="botao4" onclick="tabuadas();">Mostrar</button>
-
-            <div id="exercicio4">Resultado no console!!</div>
-
-            <h3>Exercício 5: Soma dos números de 1 a 10</h3>
-
-            <button type="button" id="botao5" onclick="soma1a10();">Mostrar</button>
-
-            <p id="exercicio5"></p>
-
+            </div>
 
         </div>
-    </div>
+
+        <hr>
+        <br>
 
 
-    <div class="container" id="segundoContainer">
-        <div class="row">
-            <h3>Exercício 6: Calculado o fatorial de 10</h3>
+        <div class="container" id="primeiroContainer">
+            <div class="row">
 
-            <button type="button" id="botao6" onclick="fatorial10();">Mostrar</button>
+                <h3>Exercício 1: Mostrar números de 1 a 10</h3>
 
-            <p id="exercicio6"></p>
+                <button type="button" id="botao1" onclick="numero1a10();">Mostrar</button>
 
-            <h3>Exercício 7: Criar uma função para calcular a porcentagem de um número</h3>
-            <button type="button" id="botao7" onclick="porcentagem();">Mostrar</button>
+                <p id="exercicio1"></p>
 
-            <p id="exercicio7"></p>
+                <h3>Exercício 2: Mostrar os números impares menores que 100</h3>
 
+                <button type="button" id="botao2" onclick="imparMenorQue100();">Mostrar</button>
 
-            <h3>Exercício 8: Calcular a soma dos números impares maiores que 10 e menores que 30</h3>
-            <button type="button" id="botao8" onclick="somaImpares();">Mostrar</button>
-
-            <p id="exercicio8"></p>
+                <p id="exercicio2"></p>
 
 
-            <h3>Exercício 9: Criar uma função que converta uma temperatura de Celsius para Fahrenheit </h3>
-            <button type="button" id="botao9" onclick="celsiusParaFahrenheit();">Mostrar</button>
+                <h3>Exercício 3: Mostrar a tabuada do número 8</h3>
+                <button type="button" id="botao3" onclick="tabuadaDo8();">Mostrar</button>
 
-            <p id="exercicio9"></p>
+                <p id="exercicio3"></p>
 
 
-            <h3>Exercício 10: Criar uma função que converta uma temperatura de Fahrenheit para Celsius </h3>
-            <button type="button" id="botao10" onclick="fahrenheitParaCelsius();">Mostrar</button>
+                <h3>Exercício 4: Mostrar todas as tabuadas do número 1 ao 10 </h3>
+                <button type="button" id="botao4" onclick="tabuadas();">Mostrar</button>
 
-            <p id="exercicio10"></p>
+                <div id="exercicio4">Resultado no console!!</div>
+
+                <h3>Exercício 5: Soma dos números de 1 a 10</h3>
+
+                <button type="button" id="botao5" onclick="soma1a10();">Mostrar</button>
+
+                <p id="exercicio5"></p>
+
+
+            </div>
         </div>
-    </div>
 
 
+        <div class="container" id="segundoContainer">
+            <div class="row">
+                <h3>Exercício 6: Calculado o fatorial de 10</h3>
+
+                <button type="button" id="botao6" onclick="fatorial10();">Mostrar</button>
+
+                <p id="exercicio6"></p>
+
+                <h3>Exercício 7: Criar uma função para calcular a porcentagem de um número</h3>
+                <button type="button" id="botao7" onclick="porcentagem();">Mostrar</button>
+
+                <p id="exercicio7"></p>
 
 
+                <h3>Exercício 8: Calcular a soma dos números impares maiores que 10 e menores que 30</h3>
+                <button type="button" id="botao8" onclick="somaImpares();">Mostrar</button>
+
+                <p id="exercicio8"></p>
 
 
+                <h3>Exercício 9: Criar uma função que converta uma temperatura de Celsius para Fahrenheit </h3>
+                <button type="button" id="botao9" onclick="celsiusParaFahrenheit();">Mostrar</button>
+
+                <p id="exercicio9"></p>
 
 
+                <h3>Exercício 10: Criar uma função que converta uma temperatura de Fahrenheit para Celsius </h3>
+                <button type="button" id="botao10" onclick="fahrenheitParaCelsius();">Mostrar</button>
 
+                <p id="exercicio10"></p>
+            </div>
+        </div>
+        <br>
 
-    <script src="js/script.js"></script>
+        <script src="js/script.js"></script>
 
 </body>
 
 </html>
+</div>
